@@ -74,6 +74,11 @@ public class SmoothCheckBox extends View implements Checkable {
     public SmoothCheckBox(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
+    
+    public enabled(boolean val)
+    {
+        this.setEnabled(val);
+    }
 
     public SmoothCheckBox(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
